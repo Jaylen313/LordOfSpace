@@ -21,7 +21,7 @@ To run Lord of Space, you will need Java and JavaFX installed on your machine.
 1. Clone or download the repository.
 2. Navigate to the project directory.
 3. Compile the game using `javac --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web LordOfSpaceApp.java`.
-4. Run the game using  `javac --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -cp. LordOfSpaceApp`.
+4. Run the game using  `java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -cp. LordOfSpaceApp`.
 Replace `/path/to/javafx-sdk/lib` with the actual path to the JavaFX SDK library on your machine.
 
 ##Spaceships
