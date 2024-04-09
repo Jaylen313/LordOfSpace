@@ -39,6 +39,9 @@ Galactic Ghouls: A sinister species that feed on the energy of stars and planets
 - Move the spaceship: Move the mouse horizontally.
 - Shoot: Click the left mouse button.
 
+## Demo
+- https://youtu.be/iIfJbCqXqCU
+
 ## Credits
 - Game development: Jaylen Terry
 - Graphics and assets: Made by Freepik from www.flaticon.com
