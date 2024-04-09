@@ -1,0 +1,53 @@
+User Manual for Lord of Space Game
+Introduction
+Welcome to "Lord of Space," a thrilling arcade-style shooter game where you navigate through the cosmos, battling against a variety of enemy species. Get ready to experience the excitement of space combat like never before!
+Installation
+To play "Lord of Space," you will need to have Java and JavaFX installed on your computer. Follow these steps to get started:
+1.	Install Java: Ensure you have the latest version of Java installed. You can download it from the official Java website.
+2.	Install JavaFX: Download and install JavaFX from OpenJFX.
+3.	Download Game: Clone or download the game repository from GitHub (link provided by the game developer).
+4.	Set Up JavaFX: Make sure to configure your IDE to include the JavaFX library in the project settings.
+Running the Game
+Once you have installed Java and JavaFX, you can run the game by executing the LordOfSpaceApp.java file in your IDE or using the command line:
+java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -cp . LordOfSpaceApp 
+Replace /path/to/javafx-sdk/lib with the actual path to the JavaFX library on your system.
+Gameplay
+•	Start Screen: When you launch the game, you will be greeted with a start screen where you can choose your spaceship. When you hover over each spaceship with your mouse a small backstory is provided for the user to read .Use your mouse to select one of the available ships.
+•	Controls:
+•	Move: Move your spaceship horizontally by moving your mouse left or right.
+•	Shoot: Click the left mouse button to shoot at enemy ships.
+•	Objective: Your goal is to destroy as many enemy ships as possible to increase your score. Avoid colliding with enemy ships and meteoroids.
+•	Enemies: You will encounter various enemy species. Stay alert and adapt your strategy to survive.
+•	Game Over: The game ends if your spaceship is hit by an enemy or a meteoroid. Your final score will be displayed on the screen.
+Tips for Success
+•	Keep moving to avoid enemy or meteoroid collisions.
+•	Focus on taking down one enemy at a time.
+•	Watch for patterns in enemy movements.
+Conclusion
+Thank you for playing "Lord of Space"! We hope you enjoy this action-packed journey through the stars. Good luck!
+________________________________________
+Implementation Manual for Lord of Space Game
+Overview
+"Lord of Space" is developed using Java and JavaFX. The game features a simple yet engaging gameplay mechanic where the player controls a spaceship, dodges enemies, and shoots to destroy them.
+Main Components
+•	LordOfSpaceApp: The main class that launches the game and sets up the primary game loop.
+•	Player: Represents the player's spaceship. Handles movement, shooting, and collision detection.
+•	Enemy: Represents enemy ships. Each enemy has its own movement pattern and shooting behavior.
+•	Shot: Represents projectiles shot by the player's spaceship.
+•	SpinningPlanet: A decorative element that adds visual appeal to the start screen.
+•	BackgroundObject: Represents background stars and other objects to create a dynamic space environment.
+Game Loop
+The game loop is implemented using an AnimationTimer. It handles game updates and rendering. Within the loop, the following operations are performed:
+•	Update player position based on mouse movement.
+•	Spawn new enemies at intervals.
+•	Move enemies and check for collisions with the player.
+•	Update and render shots fired by the player.
+•	Check for game over conditions.
+Collision Detection
+Collision detection is implemented using simple bounding box checks. For each enemy and shot, the game checks whether their bounding boxes intersect with the player's bounding box.
+Assets
+The game assets (images and fonts) are stored in the src directory. Ensure that the paths to these assets are correctly set in the code to avoid FileNotFoundException.
+Customization
+You can customize various aspects of the game, such as enemy types, spaceship models, and background elements, by modifying the corresponding classes and assets.
+Conclusion
+This implementation manual provides a brief overview of the "Lord of Space" game's structure and key components. By understanding these elements, you can further develop and enhance the game to create a more immersive and enjoyable experience for players.
