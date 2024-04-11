@@ -24,12 +24,12 @@ To run Lord of Space, you will need Java and JavaFX installed on your machine.
 4. Run the game using  `java --module-path "/path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -cp. LordOfSpaceApp`.
 Replace `/path/to/javafx-sdk/lib` with the actual path to the JavaFX SDK library on your machine.
 
-##Spaceships
+## Spaceships
 The Starlight Voyager: Known for its dazzling maneuvers and leaving a trail of stardust.
 The Cosmic Defender: Carries the legacy of General Luna, ensuring peace and safety for star systems.
 The Nebula Striker: Shrouded in mystery, the vessel of choice for the Shadow Phantom
 
-##Enemies
+## Enemies
 The Zorgo Invaders: Relentless attackers from the Zorgon nebula, known for their swift strikes and aggressive tactics 
 Galactic Gorgons: Ruthless space pirates who plunder and sabotage unsuspecting ships, striking fear into the hearts of travelers
 Quantum Scavengers: Though small, are dangerous foes that pick apart ships and stations, repurposing technology for their evil plans
